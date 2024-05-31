@@ -1,0 +1,213 @@
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn{
+    text-decoration: none;
+    color: #fff; 
+    background-color: #0a66c2;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
+    color: #000;
+}
+/* color brand */
+.whatsapp{
+    transition: all .8s ;
+}
+.facebook{
+    transition: all .8s ;
+}
+.instagram{
+    transition: all .8s ;
+}
+.twitter{
+    transition: all .8s ;
+}
+.linkedin{
+    transition: all .8s ;
+}
+.whatsapp:hover{
+    color: #00ff2fcb;
+}
+.facebook:hover{
+    color: #1877f2;
+}
+.instagram:hover{
+    color: #fd1d1d;
+}
+.twitter:hover{
+    color: #657786;
+}
+.linkedin:hover{
+    color: #0a66c2;
+}
+/* color brand */
+
+/* nav */
+.navbar{
+    z-index: 9151651651;
+}
+.navbar img{
+    width: 150px;
+}
+.navbar .her .icon a{
+    font-size: 20px;
+    color: #000;
+}
+/* hero */
+.hero-container-desktop, 
+.desktop-hero{
+    position: relative;
+    overflow: hidden;
+}
+.hero-container-desktop img , 
+.desktop-hero img {
+    max-width: 100%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.hero-container-desktop:hover img , 
+.desktop-hero:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.hero-details{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    max-width: 500px;
+    z-index: 9000;
+}
+.hero-details h1 {
+    font-size: 50px;
+    font-weight: 200;
+    color: #ffffff;
+}
+.hero-details p {
+    font-size: 20px;
+    font-weight: 200;
+    color: #ffffff;
+    letter-spacing: .1em;
+    margin-top: 10px;
+}
+.hero-details .btn{
+    background-color: #fff;
+    border-radius: 0;
+}
+.desktop-hero img{
+    height: 50vh;
+}
+/* best-marketplace */
+.best-marketplace p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.9;
+}
+.best-marketplace h2{
+    font-size: 50px;
+}
+.esidential img{
+    width: 700px;
+}
+.esidential-details {
+    position: relative;
+    overflow: hidden;
+    margin: 18px 18px;
+}
+
+.esidential-details img {
+    max-width: 100%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.esidential-details:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.esidential-details .title{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    max-width: 500px;
+    z-index: 9000;
+}
+.esidential-details .title span{
+    position: absolute;
+    top: -95px;
+    left: -20px;
+}
+.esidential-details .button{
+position: absolute;
+top: 85%;
+left: 20px;
+max-width: 500px;
+z-index: 90000;
+}
+.esidential-details .icon{
+    position: absolute;
+    top: 85%;
+    left: 90%;
+    z-index: 90000;
+}
+.esidential-details .title2{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    max-width: 300px;
+    z-index: 66666;
+}
+.esidential-details .button2{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    max-width: 300px;
+    z-index: 6666;
+}
+.esidential-details .icon2{
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    max-width: 300px;
+    z-index: 6565;
+}
+/* call-to-action */
+.call-to-action ,
+.footer{
+    background-color: #2d3234;
+    border-bottom: 1px solid hsla(0, 0%, 86%, 0.689);
+    font-size: 200;
+    text-align: center;
+}
+.block-title p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.8;
+}
+.secondary-btn {
+    background: transparent;
+    border: 2px solid #ffffff;
+    padding: 15px 40px;
+    margin: 20px 5px 0 5px;
+    border-radius: 0;
+}
+
+.secondary-btn:hover {
+    background-color: #ffffff;
+    color: #2d3234;
+}
+/* footer */
+.footer ul li a{
+    font-size: 18px;
+    transition: all .8;
+}
+.footer ul li a:hover{
+    transition: all .8;
+    color: #0a66c2;
+}
